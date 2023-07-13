@@ -13,8 +13,8 @@ sectionWaterfall.addEventListener("scroll", (event) => {
 function parallax(percent) {
     var items = sectionWaterfall.querySelectorAll('.container__waterfall_items');
 
-    items[0].style.transform = `translateY(-${percent * 1}px)`;
-    items[1].style.transform = `translateY(${percent * 2.5}px)`;
-    items[2].style.transform = `translateY(-${percent * 1}px)`;
-    items[3].style.transform = `translateY(${percent * 2.5}px)`;
+    items[0].style.transform = `translateY(-${percent * 3}px)`;
+    items[1].style.transform = `translateY(${percent * 5}px)`;
+    items[2].style.transform = `translateY(-${percent * 2}px)`;
+    items[3].style.transform = `translateY(${percent * 5}px)`;
 }
