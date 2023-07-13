@@ -1,7 +1,16 @@
 * {
   font-family: "Gotham";
 }
+body {
+overflow: hidden;
+}
+.section .investement{
+  overflow:hidden;
+}
 
+#fullpage {
+overflow: hidden;
+}
 .section.waterfall {
   height: 100vh;
   overflow: scroll;
