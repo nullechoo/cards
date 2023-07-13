@@ -2,10 +2,10 @@
   font-family: "Gotham";
 }
 body {
-overflow: hidden;
+overflow: hidden !important;
 }
 .section .investement{
-  overflow:hidden;
+  overflow:hidden!important;
 }
 
 #fullpage {
